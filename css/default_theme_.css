@@ -1,0 +1,36 @@
+/*START COLOR SECTION*/
+.navbar-inverse .navbar-brand span{
+  color: #e60024;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: #e60024
+}
+.navbar-nav>li>.dropdown-menu{
+  background-color: #333;
+}
+.dropdown-menu>li>a{
+  color: #9d9d9d
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover{
+  color: #eee;
+  background-color: #e60024;
+}
+section.intorduction h2 span{
+  color: #e60024;
+}
+
+#testimonialsCarousel .item strong{
+  color: #e60024
+}
+footer h3{
+  color: #e60024
+}
+section.features,
+section.prices,
+section.subscribe{
+  background-color:#eee
+}
+/*END COLOR SECTION*/

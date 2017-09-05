@@ -1,0 +1,207 @@
+body{
+  padding-top:50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section{
+  padding:50px 0;
+}
+section .overlay{
+  background-color:rgba(0, 0, 0, 0.8);
+  padding:50px 0;
+}
+section .h1{
+  margin:0;
+  margin-bottom:30px
+}
+section.features,
+section.prices,
+section.subscribe{
+  background-color:#eee
+}
+#headerCarousel .carousel-caption{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  bottom:70px
+}
+section.features .glyphicon{
+  font-size:25px;
+  color:#666
+}
+section.features .feat{
+  margin-bottom:30px
+}
+section.features .feat p{
+  line-height: 2em
+}
+
+#testimonialsCarousel .carousel-indicators{
+  position: static;
+  text-indent: 0px;
+  margin:auto;
+  width:100%;
+  margin-top:20px;
+}
+#testimonialsCarousel .carousel-indicators li{
+  width:70px;
+  height:70px;
+  text-indent:0;
+  margin:0;
+  border-radius:50%;
+}
+#testimonialsCarousel .carousel-indicators img{
+  border-radius:inherit;
+  max-width:100%;
+  opacity: .8;
+  /*border: 4px solid transparent;*/
+  padding:2px;
+  transition: all .5s ease-out;
+}
+
+#testimonialsCarousel .carousel-indicators li.active img{
+  border: 4px dashed red;
+  opacity: 1;
+}
+section.prices .plan{
+  background-color: #fff;
+  border:1px solid #ddd;
+  margin-bottom:20px;
+  padding:15px;
+  color:#666
+
+}
+section.prices .plane h2{
+  margin:0;
+}
+section.prices .price{
+  display: inline-block;
+  width:100px;
+  height: 100px;
+  line-height: 100px;
+  font-size:35px;
+  background-color: #eee;
+  border-radius:50%;
+  margin:10px;
+}
+section.prices li{
+  border:0;
+  font-size:18px
+}
+section.team{
+  background-image:url("../images/overlay.png");
+  background-size:cover;
+  background-attachment:fixed;
+  padding:0;
+  color: #eee
+}
+
+section.team .member{
+  padding:15px 0;
+}
+section.subscribe .h1{
+  color: #888
+}
+section.subscribe input[type="text"],
+section.subscribe button{
+  border-radius: 0;
+  margin-bottom:5px;
+}
+
+section.statistics{
+  background-image:url("../images/overlay.png");
+  background-size:cover;
+  background-attachment:fixed;
+  padding:0;
+  color: #eee;
+}
+section.statistics .observe{
+  margin-top:30px
+}
+section.statistics strong{
+  display:block;
+  font-size:4em
+}
+section.statistics span{
+  display:block;
+  font-size:18px
+}
+section.skills .h1{
+  text-align: center
+}
+section.skills .progress{
+  height: 36px;
+}
+section.skills .progress-bar{
+  line-height: 36px
+}
+section.skills .about-team h3{
+  margin-top:0
+}
+section.contact-us{
+  background-image:url("../images/overlay.png");
+  background-size:cover;
+  background-attachment:fixed;
+  padding:0;
+  color:#eee
+}
+section.contact-us textarea{
+  height: 108px
+}
+section.contact-us input[type="text"],
+section.contact-us textarea{
+  background: rgba(0, 0, 0, 0.5);
+}
+section.sponsers{
+  background-color: #eee;
+  padding: 20px 0
+}
+section.sponsers img{
+  max-width: 100%;
+  padding:10px
+}
+footer{
+  background: #333;
+  color: #eee;
+}
+footer ul{
+}
+footer ul.links li{
+  float: left;
+  width: 33.333%;
+  padding:10px;
+}
+
+footer ul.social li{
+  width:45px;
+  height: 45px;
+  line-height: 55px;
+  text-align:center;
+  background-color: #eee;
+  border-radius:50%;
+  margin:5px
+}
+footer .fa-facebook{
+  color: #3b5998
+}
+footer .fa-twitter{
+  color: #55acee
+}
+footer .fa-google-plus{
+  color: #dd4b39
+}
+footer .fa-instagram{
+  color: #e95950
+}
+footer .fa-linkedin{
+  color: #007bb5
+}
+footer .fa-youtube{
+  color: #ff0000
+}
+footer ul.article .img{
+  float:left;
+  margin-right:20px
+}
+footer ul.article h4{
+  margin-bottom:5px
+}
