@@ -160,7 +160,7 @@ section.sponsers img{
   padding:10px
 }
 footer{
-  background: #111;
+  background: #333;
   color: #eee;
 }
 footer ul{
@@ -204,13 +204,4 @@ footer ul.article .img{
 }
 footer ul.article h4{
   margin-bottom:5px
-}
-footer .copyrights{
-  padding:15px;
-  background-color: #333;
-  color: #aaa;
-  font-size: 18px
-}
-footer .copyrights span{
-  color: red
 }
